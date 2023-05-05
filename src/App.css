@@ -1,0 +1,12 @@
+table {
+    width: 50%;
+}
+
+textarea {
+    width: 98%;
+}
+
+/* select first td of a table */
+tr > td:nth-child(1):not([colspan="2"]) {
+    width: 200px;
+}
